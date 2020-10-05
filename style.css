@@ -1,0 +1,35 @@
+* {
+background-color: yellow;
+}
+
+
+header {
+text-align: center;
+}
+
+main {
+height:200px;
+width:60%;
+float:left;
+}
+
+aside {
+height:100px;
+width:40%;
+text-align: center;
+float: right;
+}
+
+main h2 {
+color: red;
+}
+
+main h3 {
+color: green;
+}
+
+aside h2 {
+color: red;
+}
+
+

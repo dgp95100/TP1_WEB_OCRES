@@ -3,12 +3,117 @@
     <head>
         <meta charset=utf-8>
         <title>TP1</title>
+
+        <link rel="stylesheet" href= "style.css">
+
+
     </head>
 
     <body>
-        <h1>Pierre Duong</h1>
-        <p>Salut</p>
+        <audio controls src="music.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <header>
 
+            <h1>Pierre Duong, 21 ans</h1>
+            <h2>Etudiant en 4ème année à l'ECE Paris en Objets Connectés Réseaux et Services</h2>
+            <img src="Photo CV.jpg" width=100>
+            
+            
+        </header>
+
+
+        <main>
+            <div id ="formation">
+                <h2>Formation</h2>
+                <h3>ECE Paris Groupe Inseec, Paris, 2017 à aujourd'hui</h3>
+                <ul>
+                    <li>3ème année d'école d'ingénieur (électronique, informatique)</li>
+                    <li>Codage d'un jeu type bataille navale et d'un jeu ludique en C</li>
+                    <li>Codage d'un paysage avec plusieurs plans en C++</li>
+                </ul>
+
+                <h3>Institution Jeanne d'Arc, Colombes, 2016-2017</h3>
+                <ul>
+                    <li>BAC scientifique, Option science de la vie et de la terre, Mention assez bien </li>
+                </ul>
+
+                <h3>Collège Saint Joseph, Argenteuil, 2014-2015</h3>      
+                <ul>
+                    <li>Brevet des collèges, Mention Bien</li>
+                </ul>
+            </div>
+
+            <div id ="exp">
+                <h2>Expériences professionnelles</h2>
+                <h3>Formation en Bulgarie</h3>
+                <ul>
+                    <li>Codage de 2 algorithmes de cryptage (Playfair et Affine) en C++</li>
+                    <li>Apprentissage de logiciels graphiques (photoshop, coreldraw, inkscape)</li>
+                </ul>
+
+                <h3>Cultura, Stagiaire polyvalent, Gennevilliers, Stagiaire polyvalent</h3>
+                <ul>
+                    <li>Découverte du métier de vendeur</li>
+                    <li>Accueil et conseil des clients</li>
+                </ul>
+
+                <h3>SNCF, Employé SNCF, Bercy</h3>
+                <ul>
+                    <li>Tri et rangement des produits</li>
+                </ul>
+
+                <h3>Ecole des Coteaux, Assistant institutrice, Argenteuil</h3>
+                <ul>
+                    <li>Encadrement des élèves</li>
+                    <li>Initiation aux bases de l'informatique (word, excel)</li>
+                    <li>Animateur lors d'un tournoi sportif</li>
+                </ul>
+            </div>
+
+            <div id ="comp">
+                <h2>Compétences</h2>
+                <ul>
+                    <li>Langage en C: Niveau correct</li>
+                    <li>Langage en C++: Niveau débutant</li>
+                    <li>Français, Vietnamien : langues maternelles</li>
+                    <li>Anglais : Niveau B2</li>
+                    <li>Espagnol : Niveau A2</li>
+                    <li>Chinois : Niveau A1</li>
+                    <li>Word, Excel, Powerpoint</li>
+                </ul>
+            </div>
+        </main>
+
+        <aside>
+            <div id ="interet">
+                <h2>Centres d'intérêts</h2>
+                <p>J'ai pratiqué du basketball en compétition et pour el loisir pendant 5 ans</p>
+                <p>J'ai pratiqué tu tennis de table pendant 5 ans</p>
+                <p>J'aime joué les jeux-vidéos</p>
+            </div>
+
+            <div id ="contact">
+                <h2>Contact</h2>
+                <form action="" method="get" class="form-example">
+                    <div class="nom">
+                      <label for="name">Nom: </label>
+                      <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="email">
+                      <label for="email">E-mail: </label>
+                      <input type="email" name="email" id="email" required>
+                    </div>
+                    <textarea id="texte" name="texte" rows="3" cols="20">
+                    </textarea>
+                    <div class="valider">
+                      <input type="submit" value="Valider">
+                    </div>
+                </form>
+
+            </div>
+        </aside>
     </body>
     
 </html>
